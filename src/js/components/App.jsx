@@ -1,5 +1,7 @@
 import React from "react";
+
 import Header from "./Header";
+import Services from "./services";
 
 class App extends React.Component {
   render() {
@@ -7,6 +9,7 @@ class App extends React.Component {
       <div>
         <div>hello</div>
         <Header />
+        <Services />
       </div>
     );
   }
