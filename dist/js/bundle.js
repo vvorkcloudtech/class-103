@@ -511,7 +511,7 @@ module.exports = g;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(7);
-module.exports = __webpack_require__(20);
+module.exports = __webpack_require__(21);
 
 
 /***/ }),
@@ -24097,6 +24097,10 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _navigation = __webpack_require__(20);
+
+var _navigation2 = _interopRequireDefault(_navigation);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -24124,7 +24128,8 @@ var App = function (_React$Component) {
           "div",
           null,
           "hello"
-        )
+        ),
+        _react2.default.createElement(_navigation2.default, null)
       );
     }
   }]);
@@ -24136,9 +24141,37 @@ exports.default = App;
 
 /***/ }),
 /* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Nav = function Nav(props) {
+
+    return _react2.default.createElement(
+        'div',
+        null,
+        'this is nav bar'
+    );
+};
+
+exports.default = Nav;
+
+/***/ }),
+/* 21 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: ENOENT: no such file or directory, scandir 'E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\vendor'\n    at Object.fs.readdirSync (fs.js:904:18)\n    at Object.getInstalledBinaries (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\extensions.js:130:13)\n    at foundBinariesList (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\errors.js:20:15)\n    at foundBinaries (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\errors.js:15:5)\n    at Object.module.exports.missingBinary (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\errors.js:45:5)\n    at module.exports (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\binding.js:15:30)\n    at Object.<anonymous> (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\index.js:14:35)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Module.require (module.js:596:17)\n    at require (internal/module.js:11:18)\n    at Object.sassLoader (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\sass-loader\\lib\\loader.js:46:72)\n    at runLoaders (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\webpack\\lib\\NormalModule.js:195:19)\n    at E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at runSyncOrAsync (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\loader-runner\\lib\\LoaderRunner.js:143:3)\n    at iterateNormalLoaders (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\loader-runner\\lib\\LoaderRunner.js:232:2)\n    at E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\loader-runner\\lib\\LoaderRunner.js:205:4\n    at E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:70:14\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)");
 
 /***/ })
 /******/ ]);
