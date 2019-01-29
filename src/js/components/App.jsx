@@ -4,8 +4,6 @@ import Header from "./Header.jsx";
 import Services from "./services.jsx";
 import Nav from './navigation';
 
-import Header from "./Header";
-import Services from "./services";
 
 class App extends React.Component {
   render() {
@@ -13,10 +11,9 @@ class App extends React.Component {
       <div>
         
         <Nav/>
-        <div>hello</div>
-        <Header />
-        <Services />
         <Hero/>
+        <Services />
+       
       </div>
     );
   }
