@@ -1,17 +1,24 @@
 import React from "react";
 import About from "./Aboutus";
 
+import Hero from "./Hero.jsx";
+import Header from "./Header.jsx";
+import Services from "./services.jsx";
+import Nav from './navigation';
 
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        {/* <div>hello</div>
-        <Header />
-         <Services /> */}
+       
 
          <About/>
+        
+        <Nav/>
+        <Hero/>
+        <Services />
+       
       </div>
     );
   }

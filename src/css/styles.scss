@@ -160,3 +160,13 @@
 	padding-left:10px;
 	text-align:justify;
 }
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@import './components/Services';
+
+
+@import './components/hero';
+.app {
+  color: red;
+}
+@import './_nav'; 
