@@ -1,15 +1,17 @@
 import React from "react";
+import About from "./Aboutus";
 
-import Header from "./Header";
-import Services from "./services";
+
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <div>hello</div>
+        {/* <div>hello</div>
         <Header />
-        <Services />
+         <Services /> */}
+
+         <About/>
       </div>
     );
   }
