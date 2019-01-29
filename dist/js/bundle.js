@@ -24097,9 +24097,19 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< HEAD
 var _navigation = __webpack_require__(20);
 
 var _navigation2 = _interopRequireDefault(_navigation);
+=======
+var _Header = __webpack_require__(22);
+
+var _Header2 = _interopRequireDefault(_Header);
+
+var _services = __webpack_require__(23);
+
+var _services2 = _interopRequireDefault(_services);
+>>>>>>> 4478f989f1316c0acd786faec5034d67f1a428b2
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24129,7 +24139,12 @@ var App = function (_React$Component) {
           null,
           "hello"
         ),
+<<<<<<< HEAD
         _react2.default.createElement(_navigation2.default, null)
+=======
+        _react2.default.createElement(_Header2.default, null),
+        _react2.default.createElement(_services2.default, null)
+>>>>>>> 4478f989f1316c0acd786faec5034d67f1a428b2
       );
     }
   }]);
@@ -24172,6 +24187,111 @@ exports.default = Nav;
 /***/ (function(module, exports) {
 
 throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: ENOENT: no such file or directory, scandir 'E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\vendor'\n    at Object.fs.readdirSync (fs.js:904:18)\n    at Object.getInstalledBinaries (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\extensions.js:130:13)\n    at foundBinariesList (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\errors.js:20:15)\n    at foundBinaries (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\errors.js:15:5)\n    at Object.module.exports.missingBinary (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\errors.js:45:5)\n    at module.exports (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\binding.js:15:30)\n    at Object.<anonymous> (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\node-sass\\lib\\index.js:14:35)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Module.require (module.js:596:17)\n    at require (internal/module.js:11:18)\n    at Object.sassLoader (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\sass-loader\\lib\\loader.js:46:72)\n    at runLoaders (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\webpack\\lib\\NormalModule.js:195:19)\n    at E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at runSyncOrAsync (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\loader-runner\\lib\\LoaderRunner.js:143:3)\n    at iterateNormalLoaders (E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\loader-runner\\lib\\LoaderRunner.js:232:2)\n    at E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\loader-runner\\lib\\LoaderRunner.js:205:4\n    at E:\\Vvork\\React Thems\\github\\class-103\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:70:14\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)");
+
+/***/ }),
+/* 21 */,
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Header = function (_Component) {
+  _inherits(Header, _Component);
+
+  function Header() {
+    _classCallCheck(this, Header);
+
+    return _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+  }
+
+  _createClass(Header, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        null,
+        _react2.default.createElement(
+          "div",
+          null,
+          "This is header component"
+        )
+      );
+    }
+  }]);
+
+  return Header;
+}(_react.Component);
+
+exports.default = Header;
+
+/***/ }),
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var services = function (_Component) {
+  _inherits(services, _Component);
+
+  function services() {
+    _classCallCheck(this, services);
+
+    return _possibleConstructorReturn(this, (services.__proto__ || Object.getPrototypeOf(services)).apply(this, arguments));
+  }
+
+  _createClass(services, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        null,
+        "Helloooo"
+      );
+    }
+  }]);
+
+  return services;
+}(_react.Component);
+
+exports.default = services;
 
 /***/ })
 /******/ ]);
