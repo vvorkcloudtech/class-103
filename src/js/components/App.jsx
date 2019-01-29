@@ -1,12 +1,17 @@
 import React from "react";
-import Lavaris from './Lavaris.jsx';
+
+import Header from "./Header";
+import Services from "./services";
+import Footer from "./Footer";
 
 class App extends React.Component {
   render() {
     return (
       <div>
         <div>hello</div>
-        <Lavaris/>
+        <Header/>
+        <Services/>
+        <Footer/>
       </div>
     );
   }
