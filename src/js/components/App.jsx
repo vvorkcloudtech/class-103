@@ -1,16 +1,23 @@
 import React from "react";
+import About from "./Aboutus";
+import Gallery from "./Gallery"
+import Hero from "./Hero.jsx";
+import Header from "./Header.jsx";
+import Services from "./services.jsx";
+import Nav from './navigation';
 
-import Header from "./Header";
-import Services from "./services";
-import Gallery from "./Gallery.jsx"
 class App extends React.Component {
   render() {
     return (
       <div>
-        
-        <Header />
-        <Services />
+       
+
+         <About/>
+        <Nav/>
+        <Hero/>
         <Gallery />
+        <Services />
+       
       </div>
     );
   }

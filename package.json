@@ -39,6 +39,11 @@
   "dependencies": {
     "express": "^4.16.4",
     "jquery": "^3.3.1",
+<<<<<<< HEAD
+=======
+    "ng-image-slider": "^1.0.7",
+    "react-responsive-carousel": "^3.1.46",
+>>>>>>> 2058ca7dee46c140f92878fdc98291f11b286cac
     "react-router-dom": "^4.3.1"
   }
 }
