@@ -1,0 +1,33 @@
+.nav{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background: black;
+    margin: 0;
+    padding: 0;
+    h2{
+        position: absolute;
+        color: white;
+        left: 20px;
+    }
+
+    ul{
+        position: absolute;
+        right: 20px;
+        li{
+            float: left;
+            list-style: none;
+            color: white;
+            padding: 20px;
+            transition:  all .3s linear;
+
+            &:hover{
+                border-bottom: 2px solid red;
+                color: red;
+            }
+
+
+        }
+    }
+
+}
