@@ -38,6 +38,9 @@
   },
   "dependencies": {
     "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "ng-image-slider": "^1.0.7",
+    "react-responsive-carousel": "^3.1.46",
     "react-router-dom": "^4.3.1"
   }
 }
