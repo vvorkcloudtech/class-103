@@ -3,15 +3,19 @@ import Hero from './Hero.jsx';
 
 import Header from "./Header";
 import Services from "./services";
+import Team from "./Team";
 
 class App extends React.Component {
   render() {
     return (
       <div>
         <div>hello</div>
+        
         <Header />
-        <Services />
         <Hero/>
+        <Services />
+        <Team/>
+        
       </div>
     );
   }
