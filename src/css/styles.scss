@@ -1,3 +1,260 @@
-.app {
-  color: red;
+
+
+:root {
+  font-size: 14px;
 }
+
+html,
+body {
+  height: 100%;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 1.8571428571;
+  font-size: 14px;
+  color: #747da1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+iframe {
+  border: none;
+}
+
+a,
+b,
+div,
+ul,
+li {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -moz-outline-: none;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+textarea,
+textarea:hover,
+textarea:focus,
+textarea:active,
+select:focus,
+select:hover {
+  -moz-outline: none;
+  outline: none;
+  border: 1px solid #075ac9;
+  box-shadow: none;
+  border-color: #075ac9;
+}
+
+img:not([draggable]),
+embed,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
+
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  text-decoration: none;
+  outline: 0;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+button:focus {
+  -moz-outline: none;
+  outline: none;
+  border: 1px solid #075ac9;
+  box-shadow: none;
+  border-color: #075ac9;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+.section-top {
+  padding: 120px 0 0;
+}
+
+.section-bottom {
+  padding: 0 0 120px 0;
+}
+
+.btn.focus,
+.btn:focus {
+  border: 1px solid transparent;
+}
+
+.form-control:focus,
+.btn.focus,
+.btn:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #075ac9;
+  outline: 0;
+  box-shadow: none;
+}
+
+.acurate {
+  margin: 0;
+  padding: 0;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 26px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 26px;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 26px;
+}
+
+a:focus {
+  outline: 0px solid;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+p {
+  margin: 0 0 26px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #075ac9;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0 none;
+  color: #12315a;
+}
+
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+::-moz-selection {
+  background: #075ac9;
+  text-shadow: none;
+}
+
+::selection {
+  background: #075ac9;
+  text-shadow: none;
+}
+
+.browserupgrade {
+  margin: 26px 0;
+  background: #075ac9;
+  color: #333333;
+  padding: 26px 0;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
+.ptb-108 {
+  padding: 108px 0;
+}
+
+.pt-112 {
+  padding-top: 113px;
+}
+
+.pt-107 {
+  padding-top: 107px;
+}
+
+.pb-112 {
+  padding-bottom: 112px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
+
+
+
+@import './Components/Portfolio.scss';
