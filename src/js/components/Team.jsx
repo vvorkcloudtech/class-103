@@ -3,8 +3,9 @@ import React, { Component } from 'react'
 export default class Team extends Component {
   render() {
     return (
-      <div className="main">
-        
+      <div style={{backgroundColor:'whiteSmoke', padding:'20px'}}>
+        <h1 style={{textAlign:'center'}}><b>Our Team</b></h1>
+        <div className="main">
         <figure className="snip1447">
   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample87.jpg" alt="sample87" />
   <figcaption><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample4.jpg" alt="profile-sample4" className="profile" />
@@ -24,6 +25,7 @@ export default class Team extends Component {
     <p>If you want to stay dad you've got to polish your image. I think the image we need to create for you is "repentant but learning".</p><a href="#" className="follow">Follow</a><a href="#" className="info">More Info</a>
   </figcaption>
 </figure>
+        </div>
       </div>
     )
   }
